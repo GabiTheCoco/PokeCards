@@ -2,7 +2,7 @@ import { ref } from 'vue';
 import axios from 'axios';
 
 
-export function buscarPokemones(limit = 30){
+export function buscarPokemones(limit = 152){
   // definimos referencias reactivas para su uso
   const pokemones = ref([])
   const loading = ref(false)
